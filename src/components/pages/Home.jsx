@@ -7,7 +7,7 @@ export default function Home() {
       <Nav/>
       <BirthdayGIF/>
       <div className='justify-center items-center mt-[50px] text-center'>
-        <p>SELAMAT ULANG TAHUN YANG KE-20 COY SUDAH DEWASA HOHOHO!!</p>
+        <p>SELAMAT ULANG TAHUN YANG KE-20 COY <br/> SUDAH DEWASA HOHOHO!!</p>
       </div>
     </div>
   )
