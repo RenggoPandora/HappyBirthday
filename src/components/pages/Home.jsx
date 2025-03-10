@@ -20,7 +20,7 @@ export default function Home() {
   }, []);
 
   return (
-    <div className="flex flex-col min-h-screen bg-cover bg-center" style={{ backgroundImage: "url('/src/assets/Background.svg')" }}>
+    <div className="flex flex-col min-h-screen bg-cover bg-center" style={{ backgroundImage: "url('/assets/Background.svg')" }}>
       <Nav />
       <BirthdayGIF />
       <div className="justify-center items-center mt-[50px] text-center">
@@ -31,7 +31,7 @@ export default function Home() {
 
       {/* Audio untuk Backsound */}
       <audio id="bg-music" loop>
-        <source src="/src/assets/SONG 2.mp3" type="audio/mpeg" />
+        <source src="/assets/SONG 2.mp3" type="audio/mpeg" />
       </audio>
     </div>
   );

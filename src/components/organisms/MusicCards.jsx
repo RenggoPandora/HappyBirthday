@@ -9,13 +9,11 @@ const MusicCard = ({ image, title, link }) => {
           href={link}
           target="_blank"
           rel="noopener noreferrer"
-          className="inline-block"
+          className="flex items-center space-x-2 p-2 rounded-lg transition cursor-pointer hover:bg-[#FFDA44]"
         >
-          <button className="text-white p-2 rounded-lg hover:bg-[#FFDA44] transition flex items-center cursor-pointer">
-            <img src="/src/assets/Play.svg" alt="Play" className="w-6 h-6" />
-          </button>
+          <img src="/assets/Play.svg" alt="Play" className="w-6 h-6" />
+          <h3 className="text-3xl font-semibold">{title}</h3>
         </a>
-        <h3 className="text-3xl font-semibold ">{title}</h3>
       </div>
     </div>
   );

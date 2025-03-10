@@ -16,7 +16,7 @@ export default function Nav() {
 
       {/* Gambar Sunflower (Tetap di Tengah) */}
       <div className="absolute left-1/2 top-1/2 transform -translate-x-1/2 -translate-y-1/2">
-        <img src="/src/assets/sunflower.svg" alt="sunflower" className="w-[60px] md:w-[80px]" />
+        <img src="/assets/sunflower.svg" alt="sunflower" className="w-[60px] md:w-[80px]" />
       </div>
 
       {/* Navigasi Icon */}
@@ -25,7 +25,7 @@ export default function Nav() {
           <div className={`flex items-center justify-center p-2 rounded-full transition-all duration-300 ease-in-out 
             ${isActive("/home") ? "bg-[#FFDA44] bg-opacity-20" : ""}`}>
             <img 
-              src="/src/assets/Home_Icon.svg" 
+              src="/assets/Home_Icon.svg" 
               alt="Home" 
               className={`w-8 md:w-10 transition-all duration-300 ease-in-out hover:scale-125 hover:rotate-6`}
             />
@@ -35,7 +35,7 @@ export default function Nav() {
           <div className={`flex items-center justify-center p-2 rounded-full transition-all duration-300 ease-in-out 
             ${isActive("/music") ? "bg-[#FFDA44] bg-opacity-30" : ""}`}>
             <img 
-              src="/src/assets/Music_Icon.svg" 
+              src="/assets/Music_Icon.svg" 
               alt="Music" 
               className={`w-8 md:w-10 transition-all duration-300 ease-in-out hover:scale-125 hover:rotate-6`}
             />
@@ -45,7 +45,7 @@ export default function Nav() {
           <div className={`flex items-center justify-center p-2 rounded-full transition-all duration-300 ease-in-out 
             ${isActive("/notes") ? "bg-[#FFDA44] bg-opacity-30" : ""}`}>
             <img 
-              src="/src/assets/Notes_Icon.svg" 
+              src="/assets/Notes_Icon.svg" 
               alt="Notes" 
               className={`w-8 md:w-10 transition-all duration-300 ease-in-out hover:scale-125 hover:rotate-6`}
             />
