@@ -21,7 +21,7 @@ export default function Nav() {
 
       {/* Navigasi Icon */}
       <div className="flex gap-4 md:gap-8 justify-end flex-1 min-w-0 mr-4 md:mr-10">
-        <a href="/" className="relative">
+        <a href="/home" className="relative">
           <div className={`flex items-center justify-center p-2 rounded-full transition-all duration-300 ease-in-out 
             ${isActive("/") ? "bg-[#FFDA44] bg-opacity-20" : ""}`}>
             <img 

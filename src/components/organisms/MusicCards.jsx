@@ -11,7 +11,7 @@ const MusicCard = ({ image, title, link }) => {
           rel="noopener noreferrer"
           className="inline-block"
         >
-          <button className="text-white p-2 rounded-lg hover:bg-blue-600 transition flex items-center">
+          <button className="text-white p-2 rounded-lg hover:bg-[#FFDA44] transition flex items-center cursor-pointer">
             <img src="/src/assets/Play.svg" alt="Play" className="w-6 h-6" />
           </button>
         </a>
